@@ -1,0 +1,46 @@
+.navlist{
+    width:80%;
+    height:25px;
+    position: fixed;
+    padding: 5px 10%;
+    background-color: #110e2bbb;
+  }
+  .navlist ul{
+    display: flex;
+    list-style: none;
+  }
+  .navlist ul li:first-child{
+    flex: 1;
+    color: #ffffff;
+    left: -50px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .navlist ul li h4{
+    font-family: serif;
+  }
+  .navlist ul a{
+    display: block;
+    margin-left: 20px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .navlist ul a:hover{
+    color: #ff8800;
+  }
+
+  .body{
+    display: flex;
+    justify-content: center;
+  }
+  .video{
+    flex:auto;
+  }
+  
+  

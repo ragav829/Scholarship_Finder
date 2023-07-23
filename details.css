@@ -1,0 +1,35 @@
+.table_grey{
+    background: #e6e7e8;
+    border: 2px solid #FFF;
+    padding: 10px;
+}
+
+.navlist{
+    width:auto;
+    height: 35px;
+    padding: 5px 10%;
+    background-color: #110e2bbb;
+  }
+  .navlist ul{
+    display: flex;
+    list-style: none;
+  }
+  .navlist ul li:first-child{
+    flex: 1;
+    padding-left: -500px;
+    color: #ffffff;
+  }
+  .navlist ul li h4{
+    font-family: serif;
+  }
+  .navlist ul a{
+    display: flex;
+    margin-left: 20px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+  }
+  .navlist ul a:hover{
+    color: #ff8800;
+  }
